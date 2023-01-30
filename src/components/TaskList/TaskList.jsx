@@ -4,7 +4,7 @@ import { FlatList } from "react-native";
 import TaskItem from './Item/Item';
 import { styles } from "./styles";
 
- const TaskList = ({ tasks}) => {
+ const TaskList = ({ tasks }) => {
 
 const renderItem = ({ item }) => (
     <TaskItem 
@@ -20,6 +20,7 @@ const keyExtractor = (item) => item.id;
         renderItem={renderItem}
         keyExtractor={keyExtractor}
         style={styles.listContainer}
+        showsVerticalScrollIndicator={false}
       />
   )
 }

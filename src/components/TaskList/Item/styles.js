@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
       itemList: {
         fontSize: 14,
         color: '#000000',
-        fontWeight: 'bold'
+        fontFamily: 'Inter-Medium'
       },
       checkbox: {
         alignSelf: 'center',
